@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@200;500&display=swap');
+
 /* container 1 */
 * {
   padding: 0;
   margin: 0;
   text-decoration: none;
+  font-family: 'Abril Fatface', sans-serif;
 }
 
 body {
@@ -41,7 +44,8 @@ a:hover {
 /* container  2 */
 
 #img2 {
-  width: 300px;
+  width: 500px;
+  padding-left: 25%;
 }
 
 .grid-container-2 {
@@ -51,19 +55,16 @@ a:hover {
 
 .container-2-left {
   width: 50%;
-  padding-top: 50px;
+  padding-top: 150px;
   padding-left: 100px;
+  padding-right: 50px;
 }
 
 .container-2-right{
   width: 50%;
   padding-top: 50px;
   padding-right: 100px;
-  display: flex;
-  justify-content: center;
 }
-
-
 
 /* container 3 */
 #sample {
