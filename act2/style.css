@@ -8,6 +8,12 @@
   font-family: 'Abril Fatface', sans-serif;
 }
 
+p {
+  text-align: justify;
+  padding-left: 10%;
+  padding-bottom: 50px;
+}
+
 body {
   background-color: rgb(186, 168, 152);
 }
@@ -19,7 +25,12 @@ a {
 }
 
 a:hover {
-  color: rgb(186, 168, 152);
+  color: beige;
+}
+
+h3 {
+  color: beige;
+  text-align: center;
 }
 
 #title {
@@ -42,6 +53,11 @@ a:hover {
 }
 
 /* container  2 */
+
+#intro {
+  font-size: 100px;
+  color: beige;
+}
 
 #img2 {
   width: 500px;
@@ -70,6 +86,7 @@ a:hover {
 #sample {
   text-align: center;
   padding-top: 50px;
+  color: beige;
 }
 
 .grid-container-3 {
@@ -80,15 +97,10 @@ a:hover {
 
 .grid-item {
   padding-top: 50px;
+  padding-right: 50px;
 }
 
 .img-content {
   width: 400px;
   padding-left: 20%;
-}
-
-p {
-  text-align: justify;
-  padding-left: 10%;
-  padding-bottom: 50px;
 }
