@@ -53,3 +53,7 @@ a:hover {
 img {
   width: 400px;
 }
+
+p {
+  text-align: justify;
+}
