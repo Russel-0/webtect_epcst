@@ -43,17 +43,18 @@ a:hover {
   display: grid;
   grid-template-columns: auto auto auto;
   align-items: center;
-  padding-left: 10%;
 }
 
 .grid-item {
   padding-top: 50px;
 }
 
-img {
+.img-content {
   width: 400px;
+  padding-left: 10%;
 }
 
 p {
   text-align: justify;
+  padding-left: 10%;
 }
