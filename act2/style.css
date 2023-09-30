@@ -46,6 +46,12 @@ h2 {
 
 /* container 3 */
 .grid-container-3 {
+  justify-content: center;
+  align-items: center;
+}
+
+/* container 4 */
+.grid-container-4 {
   display: grid;
   grid-template-columns: auto auto auto;
   align-items: center;
