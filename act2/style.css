@@ -11,7 +11,12 @@ body {
 
 a {
   color: rgb(0, 0, 0);
+  transition: all 0.1s;
   padding-right: 50px;
+}
+
+a:hover {
+  color: rgb(186, 168, 152);
 }
 
 #title {
