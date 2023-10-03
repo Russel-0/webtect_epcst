@@ -69,14 +69,14 @@ h3 {
   display: flex;
 }
 
-.container-2-left {
+.column-left {
   width: 50%;
   padding-top: 150px;
   padding-left: 100px;
   padding-right: 50px;
 }
 
-.container-2-right{
+.column-right{
   width: 50%;
   padding-top: 50px;
   padding-right: 100px;
