@@ -79,6 +79,7 @@ h3 {
 .column-right{
   width: 50%;
   padding-top: 50px;
+  padding-left: 50px;
   padding-right: 100px;
 }
 
@@ -96,6 +97,7 @@ h3 {
 
 .grid-item {
   padding-top: 50px;
+  padding-left: 50px;
   padding-right: 50px;
 }
 
