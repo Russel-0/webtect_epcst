@@ -110,3 +110,10 @@ h3 {
   width: 400px;
   padding-left: 20%;
 }
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .img-content, .grid-item, .grid-container-3, #sample, .column-right{
+    width: 100%;
+  }
+}
