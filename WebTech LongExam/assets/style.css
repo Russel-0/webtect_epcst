@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'EB Garamond', serif;
+}
+
+body {
+    background-color: rgb(195, 195, 255);
+}
+
+.logo {
+    width: 150px;
+}
+
+.titleblock {
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-left: 194px;
+    padding-right: 194px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+li {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(0, 60, 255, 0.7);
+    color: white;
+}
+
+/* images */
+
+.imgs {
+    width: 800px;
+}
+
+figure {
+    display: flex;
+}
+
+#image-slider {
+    width: 100%;
+    overflow-x: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* content */
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 194px;
+    padding-right: 194px;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.videoback {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.news {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+div img {
+    width: 500px;
+}
+
+/* footer */
+
+.footerlogo {
+    width: 100px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: white;
+}
+
+#inputtxt {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#btn {
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgb(0, 60, 255);
+    color: white;
+}
