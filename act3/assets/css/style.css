@@ -14,10 +14,18 @@ body {
 }
 
 #aboutsec{
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 #article {
   display: flex;
   align-items: center;
+}
+
+#offersec {
+  margin-top: 100px;
+}
+
+footer {
+  margin-top: 50px;
 }
