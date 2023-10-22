@@ -56,3 +56,9 @@ footer {
   transform: scale(1.04);
   z-index: -1;
 }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
