@@ -22,6 +22,11 @@ header {
   margin-top: 100px;
 }
 
+.fs-1 > h1 {
+  font-size: 100px;
+  margin-bottom: 50px;
+}
+
 #article {
   display: flex;
   align-items: center;
@@ -29,6 +34,11 @@ header {
 
 #offersec {
   margin-top: 100px;
+}
+
+.fs-2 > h2 {
+  font-size: 70px;
+  margin-bottom: 50px;
 }
 
 footer {
