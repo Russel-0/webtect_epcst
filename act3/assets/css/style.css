@@ -16,6 +16,7 @@ body {
 header {
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 #aboutsec{
@@ -43,4 +44,13 @@ header {
 
 footer {
   margin-top: 100px;
+}
+
+#offersec img {
+  transition: all 0.2s ease-in-out;
+}
+
+#offersec img:hover {
+  transform: scale(1.04);
+  z-index: -1;
 }
