@@ -28,6 +28,12 @@ header {
 .fs-1 > h1 {
   font-size: 100px;
   margin-bottom: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.fs-1 > h1:hover {
+  transform: scale(1.1);
+  color: #00f;
 }
 
 #article {
