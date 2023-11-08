@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
     <title>SPA LOGIN</title>
 </head>
 <body>
@@ -13,10 +14,10 @@
         <form action="post">
             <h1>Login</h1>
             <div class="form">        
-                <input type="email" placeholder="Email">
+                <input id="txtEmail" type="email" placeholder="Email">
             </div>
             <div class="form">
-                <input type="password" placeholder="Password">
+                <input id="txtPass" type="password" placeholder="Password">
             </div>
             <div class="remember">
                 <input type="checkbox" placeholder="checkbox">
@@ -26,7 +27,7 @@
                 <a href="#">Forgot password?</a>
             </div>
             <div class="form">
-                <button type="button">Sign in</button>
+                <button id="btnLogin" type="button" onclick="getData()">Sign in</button>
             </div>  
             <div class="new">
                 <label>don't have an account?</label>
@@ -34,6 +35,8 @@
             </div>
         </form>
     </div>
+
+    <script src="index.js "></script>
 
 </body>
 </html>
