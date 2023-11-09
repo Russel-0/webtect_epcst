@@ -18,7 +18,7 @@ function getData() {
     for(i=0; i<acc.length; i++){
         if(username == acc[i].username && password == acc[i].password){
             alert("Login Connected")
-            window.location.href="act4/act3/index.html"
+            window.location.href="/act 4/act3/index.html"
             break;
         }else{
             alert("Access Denied")
