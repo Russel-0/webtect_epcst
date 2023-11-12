@@ -20,8 +20,10 @@ function getData() {
             alert("Login Connected")
             window.location.href="/act 4/act3/index.html"
             break;
-        }else{
-            alert("Access Denied")
         }
+    }
+
+    if(username != acc[i].username && password != acc[i].password){
+        alert("Access Denied")
     }
 }
