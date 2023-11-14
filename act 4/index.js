@@ -53,5 +53,4 @@ function signup() {
 
     var password = document.getElementById("txtPass").value
 
-    if(password)
 }
