@@ -23,9 +23,23 @@ function getData() {
             found = true
             break;
         }
-    }
 
-    if(!found){
-        alert("Access Denied")
+        if(!found){
+            alert("Access Denied")
+            document.getElementById("w").style.display = "block";
+            document.getElementById("w").style.color = "red";
+    
+            if(username != acc[i].username){
+                document.getElementById("txtEmail").style.borderBottomColor = "red";
+                break
+            }else if(password != acc[i].password){
+                document.getElementById("txtPass").style.borderBottomColor = "red";
+                break
+            }else {
+                document.getElementById("txtEmail").style.borderBottomColor = "red";
+                document.getElementById("txtPass").style.borderBottomColor = "red";
+                break
+            }
+        }
     }
 }
