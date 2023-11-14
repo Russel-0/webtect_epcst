@@ -114,3 +114,7 @@ form a:hover {
 form label {
     color: rgb(0, 0, 0)
 }
+
+#w {
+    display: none;
+}
