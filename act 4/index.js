@@ -49,11 +49,16 @@ function login() {
     }
 }
 
-function signup() {
+// function signup() {
 
-    var password = document.getElementById("txtPass").value
+//     var password = document.getElementById("txtPass").value
 
-    if(password == ""){
-        document.getElementById("txtPass").style.borderBottomColor = "red"
-    }
-}
+//     var paswd =  /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
+
+//     if(password.value.match(paswd)) { 
+//         alert("Valid")   
+//     }else { 
+//         alert("Invalid")
+//         document.getElementById("txtPass").style.borderBottomColor = "red" 
+//     }
+// }
