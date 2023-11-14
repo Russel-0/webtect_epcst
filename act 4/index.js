@@ -46,23 +46,12 @@ function login() {
                 break
             }
         }
-
-        if(!found){
-            alert("Access Denied")
-            document.getElementById("w").style.display = "block";
-            document.getElementById("w").style.color = "red";
-    
-            if(username != acc[i].username){
-                document.getElementById("txtEmail").style.borderBottomColor = "red";
-                break
-            }else if(password != acc[i].password){
-                document.getElementById("txtPass").style.borderBottomColor = "red";
-                break
-            }else {
-                document.getElementById("txtEmail").style.borderBottomColor = "red";
-                document.getElementById("txtPass").style.borderBottomColor = "red";
-                break
-            }
-        }
     }
+}
+
+function signup() {
+
+    var password = document.getElementById("txtPass").value
+
+    if(password)
 }
