@@ -53,5 +53,7 @@ function signup() {
 
     var password = document.getElementById("txtPass").value
 
-    if(password){}
+    if(password == ""){
+        document.getElementById("txtPass").style.borderBottomColor = "red"
+    }
 }
