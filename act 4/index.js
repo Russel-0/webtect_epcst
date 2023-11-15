@@ -1,6 +1,6 @@
 
 function login() {
-    
+
     var acc = [
         {
             username: "russel",
@@ -43,5 +43,25 @@ function login() {
                 document.getElementById("txtPass").style.borderBottomColor = "red";
             }
         }
+    }
+}
+
+
+function signup() {
+
+    const password = document.getElementById("txtPass").value;
+
+    var sChar = /[!@#$%^&*(),.?":{}|<>]/;
+    var num = /\d/;
+
+    if (password.length < 8) {
+        alert("Password must be at least 8 characters long.");
+    } else if (!password.match(sChar)) {
+        alert("Password must contain at least one special character.");
+    } else if (!password.match(num)) {
+        alert("Password must contain at least one numeric digit.");
+    } else {
+        alert("Sign up successful");
+        window.location.href = "/act 4/login.html";
     }
 }
