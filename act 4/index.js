@@ -31,7 +31,7 @@ function login() {
 
     if (!found) {
         alert("Access Denied");
-        document.getElementById("w").style.display = "block";
+        document.getElementById("error").style.display = "block";
 
         for (var i = 0; i < acc.length; i++) {
             if (username != acc[i].username) {
