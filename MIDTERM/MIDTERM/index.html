@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spa Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/foundation/5.0.2/css/foundation.css'>
+    <link rel="stylesheet" href="css/style.css">
+  
+  </head>
+  <body>
+    <div class="row">
+        <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="#">SPA PRODUCTS</a></h1>
+                </li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li><a href="#">made for you &hearts;</a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+        <div class="medium-4  columns">
+            <div class="cart">
+                <h1>Cart items</h1>
+                <div class="row">
+                    <div class="medium-6 columns">
+                        <button class="tiny secondary" id="clear">Clear the cart</button>
+                    </div>
+                    <div class="medium-6 columns">
+                        <button class="tiny disabled" title="Work in progress">Checkout</button>
+                    </div>
+                </div>
+                <div id="cartItems">Loading cart...</div>
+                Total price: <strong id="totalPrice">0 $</strong>
+            </div>
+        
+        </div>
+        <div class="medium-8 columns">
+            <h1>Some products</h1>
+            <div class="products">
+                <div class="product medium-4 columns" data-name="FACE CLEANSER" data-price="12" data-id="0">
+                    <img src="/MIDTERM/MIDTERM/img/fC.jpg" alt="Face Cleanser" />
+                    <h3>FACE CLEANSER</h3>
+                    <input type="text" class="count" value="1" />
+                    <button class="tiny">Add to cart</button>
+                </div>
+                <div class="product medium-4 columns" data-name="CANDLE" data-price="10" data-id="1">
+                    <img src="/MIDTERM/MIDTERM/img/candle.jpg" alt="Candle" />
+                    <h3>CANDLE</h3>
+                    <input type="text" class="count" value="1" />
+                    <button class="tiny">Add to cart</button>
+                </div>
+                <div class="product medium-4 columns" data-name="BODY OIL" data-price="20" data-id="2">
+                    <img src="/MIDTERM/MIDTERM/img/bO.webp" alt="Body Oil" />
+                    <h3>BODY OIL</h3>
+                    <input type="text" class="count" value="1" />
+                    <button class="tiny">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <span id="BackButton"><a href="/act 4/act3/index.html">BACK</a></span>
+
+    <script type="text/template" id="cartT">
+    <% _.each(items, function (item) { %> <div class = "panel"> <h3> <%= item.name %> </h3>  <span class="label">
+    <%= item.count %> piece<% if(item.count > 1)
+    {%>s
+    <%}%> for <%= item.total %>$</span > </div>
+    <% }); %>
+    </script>
+
+
+ </main>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js'></script>
+<script  src="./js/script.js"></script>
+      
+  </body>
+</html>
