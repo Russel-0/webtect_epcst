@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>SPA SIGN UP</title>
+</head>
+<body>
+    
+    <h1>HELLO WELCOME!</h1>
+    
+    <div class="container">
+        <form action="post">
+            <h1>Signup</h1>
+            <div class="form">        
+                <input id="txtEmail" type="text" placeholder="Full Name">
+            </div>
+            <div class="form">
+                <input id="" type="email" placeholder="Email Address">
+            </div>
+            <div class="form">
+                <input id="" type="email" placeholder="Username">
+            </div>
+            <div class="form">       
+                <input id="txtPass" type="password" placeholder="Password">
+            </div>
+            <div class="form">
+                <button id="btnLogin" type="button" onclick="signup()">Sign up</button>
+            </div>  
+            <div class="new">
+                <a href="/finals/login.php">back to login</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
